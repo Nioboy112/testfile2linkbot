@@ -4,13 +4,13 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	API_ID = int(os.environ.get("API_ID", "10471716"))
+	API_HASH = os.environ.get("API_HASH", "f8a1b21a13af154596e2ff5bed164860")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6618564239:AAFocGP8FrjZCRQ3U4ur0vaV5IORfpQq-cA")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "testbot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001504471631"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "2027073166"))
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://appuz:chrijismiappuz@cluster0.yngvhc2.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
@@ -30,7 +30,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @APPUZ_001
 
 👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
 
